@@ -381,6 +381,10 @@ on property:persist.sys.miui_optimization=true
 on property:persist.sys.mcc.mnc=*
     setprop persist.vendor.mcc.mnc ${persist.sys.mcc.mnc}
 
+# Restrict permissions to socket file
+# to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
 # adb
 on property:persist.vendor.radio.port_index=""
     setprop sys.usb.config adb
