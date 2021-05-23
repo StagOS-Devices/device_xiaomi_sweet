@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_sweet.mk
+    $(LOCAL_DIR)/stag_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_sweet-user \
-    carbon_sweet-userdebug \
-    carbon_sweet-eng
+    stag_sweet-user \
+    stag_sweet-userdebug \
+    stag_sweet-eng
