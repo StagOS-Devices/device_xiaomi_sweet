@@ -1,3 +1,7 @@
+# Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.bluetooth.disableabsvol=true
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.android.camera2 \
@@ -10,9 +14,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.renderer=skiavk \
-	debug.sf.disable_backpressure=1 \
-	debug.sf.enable_hwc_vds=1 \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+    debug.sf.disable_backpressure=1 \
+    debug.sf.enable_hwc_vds=1 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    vendor.display.disable_metadata_dynamic_fps=1
+
 
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -23,7 +29,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.media_vol_default=10 \
 	ro.config.media_vol_steps=15 \
-	ro.config.vc_call_vol_steps=6
+	ro.config.vc_call_vol_default=7 \
+	ro.config.vc_call_vol_steps=11
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
