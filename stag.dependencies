@@ -2,13 +2,13 @@
   {
     "repository":  "shashank1439/kernel_xiaomi_sweet",
     "target_path": "kernel/xiaomi/sweet",
-    "branch":      "s12oss",
+    "revision":      "s12oss",
     "remote":      "github"
   },
   {
     "repository":  "shashank1439/vendor_xiaomi_sweet",
     "target_path": "vendor/xiaomi/sweet",
-    "branch":      "s12oss",
+    "revision":      "s12oss",
     "remote":      "github"
   }
 ]
