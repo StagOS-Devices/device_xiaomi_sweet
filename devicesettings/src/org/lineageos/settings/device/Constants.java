@@ -14,5 +14,5 @@ public class Constants {
     public static final String DISPPARAM_DC_ON = "0x40000";
     public static final String DISPPARAM_DC_OFF = "0x50000";
 
-    public static final String DEFAULT_REFRESH_RATE_CONFIG = "120-120";
+    public static final String DEFAULT_REFRESH_RATE_CONFIG = "60-60";
 }
