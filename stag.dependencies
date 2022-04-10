@@ -1,26 +1,26 @@
 [
   {
+    "remote":      "github",
     "repository":  "shashank1439/kernel_xiaomi_sweet",
     "target_path": "kernel/xiaomi/sweet",
-    "revision":      "s12oss",
-    "remote":      "github"
+    "branch":     "s12oss"
   },
   {
+    "remote":      "github",
     "repository":  "shashank1439/vendor_xiaomi_sweet",
     "target_path": "vendor/xiaomi/sweet",
-    "revision":      "s12oss",
-    "remote":      "github"
+    "branch":      "s12oss"
   },
   {
+    "remote":      "github",
     "repository":  "shashank1439/android_hardware_qcom-caf_common",
     "target_path": "hardware/qcom-caf/common",
-    "revision":      "s12",
-    "remote":      "github"
+    "branch":      "s12"
   },
   {
+    "remote":      "github",
     "repository":  "shashank1439/android_hardware_qcom_display",
     "target_path": "hardware/qcom-caf/sm8150/display",
-    "revision":      "s12",
-    "remote":      "github"
+    "branch":      "s12"
   }
 ]
